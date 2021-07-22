@@ -506,6 +506,13 @@ input {
 .uploa{
   padding-left: 6px;
   font-size: 17px;
+  color: black;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+#logua{
+  text-decoration: none !important;
+
 }
 .phot{
   color: #00bda7;

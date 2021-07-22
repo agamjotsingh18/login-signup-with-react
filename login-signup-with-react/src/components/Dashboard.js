@@ -119,14 +119,16 @@ export default function Dashboard() {
               Settings
             </span>
           </div>
-          <div>
-          <div className="w-100 text-center mt-3">
+          <div id="logou">
+          {/* <div className="w-100 text-center mt-3">
             <Link to="/login" className="forgot">Log Out</Link>
-          </div>
-            {/* <NavLink to="/"><IoMdLogOut className="upload13" /></NavLink>
-            <span className="uploa">
+          </div> */}
+              <IoMdLogOut className="upload13" />
+            <NavLink to="/login" id="logou" >
+            <span className="uploa" id="logou">
               Log Out
-            </span> */}
+            </span>
+            </NavLink>
           </div>
           </div>
         </section>
